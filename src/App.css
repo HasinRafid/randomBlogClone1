@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base{
+    h1{font-size: 30px;} 
+    h2{font-size: var(--text-xl);}  
+}
+
+@theme{
+    --color-tia-500: rgb(143, 219, 43);
+
+    --shadow-3xl: 8px 6px 60px 4px #251d35;
+
+    --breakpoint-sm2: 36rem;
+    --breakpoint-md2: 44rem;
+    --breakpoint-lg2: 62rem;
+    --breakpoint-xl2: 75rem;
+    --breakpoint-2xl2: 88rem;
+}
+
+.waveAni:hover{
+    animation-name: wave-animation;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;       
+    display: inline-block;
+}
+@keyframes wave-animation {
+  0% { transform: rotate(0deg) }
+  50% { transform: rotate(-20deg) }
+}
+.waveAni2:hover{
+    animation-name: wave-animation;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    transform-origin: 10% 60%;       
+    display: inline-block;
+}
+
+.scndSctnBtn {
+    @apply bg-gradient-to-br from-cyan-600 text-gray-100 px-3 py-2 text-[18px] font-normal rounded-sm hover:text-indigo-200 hover:-translate-y-0.5 duration-300 mr-5 mb-4
+}
+  
+@keyframes arrow_move {
+0%{
+    transform: translateX(0px);
+}
+50%{
+    transform: translateX(3px);
+}
+100%{
+    transform: translateX(0px);
+}    
+}
+.arrowC svg{
+    transition-duration: 0.5s;
+}
+.arrowC:hover svg{
+    animation: arrow_move 1.5s 4;
+}
+.arrowC:hover path{
+    stroke: oklch(0.809 0.105 251.813);
+}
+
+
+
+
+
+
+
+
