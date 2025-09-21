@@ -30,10 +30,10 @@ Clone the repo and run locally:
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/HasinRafid/randomBlogClone1.git
 
 # Enter project folder
-cd your-repo-name
+cd randomBlogClone1
 
 # Install dependencies
 npm install
