@@ -1,8 +1,41 @@
-# React + Vite
+# 🌐 Vite + React + Tailwind Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web app built with **Vite**, **React**, and **TailwindCSS**.  
+It is deployed live on GitHub Pages:  
+👉 [Visit Website](https://your-username.github.io/randomBlogClone1/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🎨 Styled with TailwindCSS
+- 📱 Fully responsive design
+- 🌍 Deployed on GitHub Pages
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](/overviewImgs/Screenshot (645).png)
+
+### 📄 About Page
+![About Page](./images/about.png)
+
+---
+
+## ⚙️ Installation & Setup
+Clone the repo and run locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/your-repo-name.git
+
+# Enter project folder
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
