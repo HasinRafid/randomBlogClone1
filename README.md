@@ -15,11 +15,13 @@ It is deployed live on GitHub Pages:
 
 ## 📸 Screenshots
 
-### 🏠 Homepage
-![Homepage](/overviewImgs/Screenshot (645).png)
+### 🖥 view
 
-### 📄 About Page
-![About Page](./images/about.png)
+![page](/overviewImgs/Screenshot%20(645).png)
+
+### 📱 mobile view
+
+![page](/overviewImgs/Screenshot%20(646).png)
 
 ---
 
