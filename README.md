@@ -2,7 +2,7 @@
 
 A modern web app built with **Vite**, **React**, and **TailwindCSS**.  
 It is deployed live on GitHub Pages:  
-👉 [Visit Website](https://your-username.github.io/randomBlogClone1/)
+👉 [Visit Website](https://hasinrafid.github.io/randomBlogClone1/)
 
 ---
 
